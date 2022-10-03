@@ -1,14 +1,40 @@
+header {
+    background-color: #100f0f;
+}
+
 #listap {
     display: flex;
     justify-content: flex-end;  
+    background-color: #0f3d3e;
 }
 
 #div-secb {
     display: flex;
+    align-items: center;
 }
 
+#foto {
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 50%;
+}
+
+#fondo-foto {
+    background-color: #e2dcc8;
+    width: 80%;
+}
 
 #contacto-d {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#section-d {
+    background-color: #e2dcc8;
+}
+
+.imgd {
+    max-width: 5rem;
+    max-height: 5rem;
 }
