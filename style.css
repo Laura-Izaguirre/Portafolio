@@ -1,11 +1,50 @@
+body {
+    font-family: "Monserrat", sans-serif ;
+}
+
+h1 {
+    color: #f1f1f1;
+    font-size: 2rem;
+    display: flex;
+    align-content: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
 header {
     background-color: #100f0f;
+}
+
+.estilolp {
+    padding-left: 1rem;
 }
 
 #listap {
     display: flex;
     justify-content: flex-end;  
     background-color: #0f3d3e;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+a:link, a:visited {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #f1f1f1;
+    opacity: 0.8;
+}
+
+
+.subt {
+    color: #0f3d3e;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 #div-secb {
@@ -22,12 +61,14 @@ header {
 #fondo-foto {
     background-color: #e2dcc8;
     width: 80%;
+    text-align: center;
 }
 
 #contacto-d {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 #section-d {
@@ -37,4 +78,14 @@ header {
 .imgd {
     max-width: 5rem;
     max-height: 5rem;
+}
+
+.subtd {
+    text-align: center;
+}
+
+.columnad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
