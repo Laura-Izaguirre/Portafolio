@@ -1,0 +1,14 @@
+#listap {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+#div-secb {
+    display: flex;
+}
+
+
+#contacto-d {
+    display: flex;
+    flex-direction: row;
+}
